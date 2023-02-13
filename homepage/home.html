@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>トップページへ</title>
+        <style>
+
+        <!--
+
+        @keyframes test {
+            from{
+            opacity: 0;
+            }
+        }   
+
+
+
+        body {
+            background-color: aquamarine;
+            background-image: url("../image/aaa.JPG");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 950px;
+            height: 2400px;
+            text-align: center;
+            animation: test 4s;
+
+
+            background-color: aliceblue;
+            padding-top: 50px;
+            /*opacity: 0.75;*/
+        }
+
+
+        .apptitle {
+             /*margin-left: 400px;
+            margin-right: 400px;*/
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .apptitle h2 {
+            text-align: center;
+            /*background-color: yellow;*/
+            background: -moz-linear-gradient(#ffb03c, #ff708d);
+            background: -webkit-linear-gradient(#ffb03c, #ff708d);
+            background: linear-gradient(to right, #ffb03c, #ff708d);
+            color: #ffffff;
+            border-radius: 10px
+        }
+
+        marquee {
+            color: black;
+
+            /*background-color: #e0e0e0*/
+             ;
+            background: rgb(2, 0, 36);
+            background: rgb(123, 35, 129);
+            background: linear-gradient(90deg, rgba(123, 35, 129, 1) 0%, rgba(200, 16, 113, 1) 37%, rgba(219, 14, 160, 1) 100%);
+            padding: 12px;
+            border-color: chocolate;
+        }
+
+
+
+        /* 上の写真 */
+        .topBookImg {
+            display: flex;
+            width: 900px;
+            justify-content: space-evenly;
+            padding-top: 50px;
+        }
+
+
+        /* 左上写真 */
+        .image1 {
+            box-shadow: 15px 15px 30px #848484,
+                -15px -15px 30px #ffffff;
+             width: 550px;
+            height: 710px;
+            overflow: visible;
+            transition-duration: 0.5s;
+
+        }
+
+        /* 左上写真のマウスホバー時 */
+        .image1:hover {
+             transform: scale(1.05, 1.05);
+            transition-duration: 0.5s;
+        }
+
+        /* 右上写真の上*/
+        .toprightbook .image2 {
+            height: 300px;
+            box-shadow: 15px 15px 30px #848484,
+                 -15px -15px 30px #ffffff;
+            overflow: visible;
+            transition-duration: 0.5s;
+            }
+
+.image2:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.5s;
+}
+
+/* 右上写真の下 */
+.toprightbook .image3 {
+    height: 300px;
+    margin-top: 25px;
+    box-shadow: 15px 15px 30px #848484,
+        -15px -15px 30px #ffffff;
+    overflow: visible;
+    transition-duration: 0.5s;
+}
+
+.image3:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.5s;
+}
+
+
+/* 本の名前の1部分(ミッケ!) */
+span {
+    color: red;
+}
+
+
+/* 下の写真 */
+.buttomBookImg {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+/* 左下の写真 */
+.image4 {
+    height: 300px;
+    box-shadow: 15px 15px 30px #848484,
+        -15px -15px 30px #ffffff;
+    overflow: visible;
+    transition-duration: 0.5s;
+}
+
+.image4:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.5s;
+}
+
+.image5 {
+    height: 300px;
+    box-shadow: 15px 15px 30px #848484,
+        -15px -15px 30px #ffffff;
+    overflow: visible;
+    transition-duration: 0.5s;
+}
+
+.image5:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.5s;
+}
+
+.feedbackBox {
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.feedbackBox {
+    display: flex;
+    padding-left: 20px;
+    width: 800px;
+    height: 150px;
+    background-color: #ff708d;
+}
+
+h1{
+    font-size: 15px;
+}
+
+.ttt{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 150px;
+    width: 780px;
+    height: 150px;
+    background-color: bisque;
+}
+
+.iframe{
+			display: flex;
+            width: 47%;
+		}
+
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+		
+        </style>
+    </head>
+
+<body>
+    <div class="container">
+        
+        <!---タイトル--->
+        <header class="apptitle">
+            <h2 >*お気に入り絵本*</h2> 
+         </header>
+
+         
+         <marquee direction="left">🕊ミッケシリーズ 全5種🕊</marquee>
+         <section class="img1">
+
+            <div class="topBookImg">
+                <div class="topleftbook">
+                        <a href="book01.html"><img src="../image/gazou1.png" alt="写真1" class="image1"></a>
+                        <h2>I SPY <span> ミッケ!</span></h2>
+                </div>
+                
+                <div class="toprightbook">
+
+                    <div>
+                        <a href="book02.html"><img src="../image/gazou2.jpeg" alt="写真2" class="image2"></a>
+                        <h2>I SPY 2<span> ミッケ!</span></h2>
+                    </div>
+
+                   <div>
+                       <a href="book03.html"><img src="../image/gazou3.jpeg" alt="写真3" class="image3"></a>
+                        <h2>I SPY 3<span> ミッケ!</span></h2>
+                   </div>
+                    
+                </div>
+                
+            </div>
+           
+        </section>
+        <section class="buttomBookImg">
+
+            <div class="buttomLeft">
+                 <a href="book04.html"><img src="../image/gazou4.jpeg" alt="写真4" class="image4"></a>
+                 <h2>I SPY 4<span> ミッケ!</span></h2>
+            </div>
+
+            <div class="ButtomRight">
+                <a href="book05.html"><img src="../image/gazou5.jpeg" alt="写真5" class="image5"></a>
+                 <h2>I SPY 5<span> ミッケ!</span></h2>
+            </div>
+        </section>
+        <div class="feedbackBox">
+            <p><h1>＜好きな理由＞</h1>
+                <br>私の小学校には、このミッケシリーズが全て揃えてありました。</br>
+                <br>この探すときのワクワク感が好きで、各種類を6年間で何度も借りていた記憶があります.</br>
+                <br>そのため、私の思い出の詰まった本を紹介します！</br>
+            </p>
+        </div>
+        <div class="ttt">
+            <p><h1>＜ミッケとは❓＞</h1>
+                <br>シリーズ国内累計945万部突破の大人気さがしっこ絵本「ミッケ！」。</br>
+                <br>精巧なジオラマを写した写真の中に隠されているさまざまなものを探していく謎解き絵本</br>
+
+        </div>
+
+        <h2>最新作！ミッケ紹介動画</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTVaROATfGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+    </div>
+   
+        
+
+       
+</body>
+</html>
+
+
+
